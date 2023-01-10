@@ -38,4 +38,4 @@ function maskRequestURI(req) {
     return req.uri; // No query string, return URI
 }
 
-export default { maskRemoteAddress maskRequestURI }
+export default { maskRemoteAddress, maskRequestURI };
